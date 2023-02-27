@@ -1,15 +1,75 @@
+    :root {
+        --color-text-navigation: #2E2F42;
+        --color-text-title: #2E2F42;
+        --color-text-paragraf: #434455;
+        --color-text-foter: #E7E9FC;
+        --color-text-address: #434455;
+
+    }
+
     /* Global */
     body {
         background-color: #FFFFFF;
         font-family: 'Roboto', sans-serif;
-
+        margin: 0;
     }
 
     a {
         text-decoration: none;
     }
 
-    /* ul {} */
+    .page-header {
+        background-color: lightgrey;
+    }
+
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        outline: 2px solid yellow;
+    }
+
+    .container-hero {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        outline: 2px solid yellow;
+    }
+
+    .container-features {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        outline: 2px solid yellow;
+    }
+
+    .container-what-are-we-doing {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        outline: 2px solid yellow;
+    }
+
+    .container-team {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        outline: 2px solid yellow;
+
+    }
+
+    .container-footer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        outline: 2px solid yellow;
+    }
 
     .krapka {
         list-style: none;
@@ -35,7 +95,10 @@
     }
 
     .navigation {
-        color: #2E2F42;
+        margin: 0;
+        padding: 0;
+
+        color: var(--color-text-navigation);
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -50,7 +113,7 @@
     }
 
     .address {
-        color: #434455;
+        color: var(--color-text-address);
 
         font-size: 16px;
         font-weight: 400;
@@ -81,6 +144,9 @@
     }
 
     .button {
+        border-radius: 4px;
+        padding: 16px 32px;
+
         background-color: #4D5AE5;
         color: #FFFFFF;
 
@@ -99,7 +165,7 @@
     }
 
     .title-2 {
-        color: #2E2F42;
+        color: var(--color-text-title);
 
 
         font-size: 36px;
@@ -109,7 +175,7 @@
     }
 
     .title-3 {
-        color: #2E2F42;
+        color: var(--color-text-title);
 
 
         font-size: 20px;
@@ -119,7 +185,7 @@
     }
 
     .text-1 {
-        color: #434455;
+        color: var(--color-text-paragraf);
 
 
         font-size: 16px;
@@ -144,8 +210,7 @@
     }
 
     .footer-text {
-        color: #E7E9FC;
-
+        color: var(--color-text-foter);
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
