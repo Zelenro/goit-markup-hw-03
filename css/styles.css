@@ -12,6 +12,7 @@
         background-color: #FFFFFF;
         font-family: 'Roboto', sans-serif;
         margin: 0;
+        padding: 0;
     }
 
     a {
@@ -72,6 +73,8 @@
     }
 
     .krapka {
+        margin: 0;
+        padding: 0;
         list-style: none;
         text-decoration-line: none;
     }
@@ -95,9 +98,6 @@
     }
 
     .navigation {
-        margin: 0;
-        padding: 0;
-
         color: var(--color-text-navigation);
         font-weight: 500;
         font-size: 16px;
@@ -135,6 +135,8 @@
     }
 
     .title-1 {
+        margin: 0;
+
         color: #ffffff;
 
         font-size: 56px;
@@ -148,6 +150,7 @@
         padding: 16px 32px;
 
         background-color: #4D5AE5;
+        border-color: rgba(0, 0, 128, 0);
         color: #FFFFFF;
 
         font-weight: 500;
@@ -165,6 +168,8 @@
     }
 
     .title-2 {
+        margin: 0;
+
         color: var(--color-text-title);
 
 
@@ -175,6 +180,7 @@
     }
 
     .title-3 {
+        margin: 0;
         color: var(--color-text-title);
 
 
@@ -185,6 +191,7 @@
     }
 
     .text-1 {
+        margin: 0;
         color: var(--color-text-paragraf);
 
 
