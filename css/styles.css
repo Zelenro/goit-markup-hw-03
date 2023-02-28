@@ -1,13 +1,19 @@
+    /* Global */
     :root {
         --color-text-navigation: #2E2F42;
         --color-text-title: #2E2F42;
         --color-text-paragraf: #434455;
         --color-text-foter: #E7E9FC;
         --color-text-address: #434455;
-
     }
 
-    /* Global */
+    h1,
+    h2,
+    h3 {
+        margin: 0;
+        padding: 0;
+    }
+
     body {
         background-color: #FFFFFF;
         font-family: 'Roboto', sans-serif;
@@ -20,51 +26,10 @@
     }
 
     .page-header {
-        background-color: lightgrey;
+        background-color: #FFFFFF;
     }
 
     .container {
-        margin-left: auto;
-        margin-right: auto;
-        width: 1440px;
-
-        outline: 2px solid yellow;
-    }
-
-    .container-hero {
-        margin-left: auto;
-        margin-right: auto;
-        width: 1440px;
-
-        outline: 2px solid yellow;
-    }
-
-    .container-features {
-        margin-left: auto;
-        margin-right: auto;
-        width: 1440px;
-
-        outline: 2px solid yellow;
-    }
-
-    .container-what-are-we-doing {
-        margin-left: auto;
-        margin-right: auto;
-        width: 1440px;
-
-        outline: 2px solid yellow;
-    }
-
-    .container-team {
-        margin-left: auto;
-        margin-right: auto;
-        width: 1440px;
-
-        outline: 2px solid yellow;
-
-    }
-
-    .container-footer {
         margin-left: auto;
         margin-right: auto;
         width: 1440px;
@@ -77,10 +42,54 @@
         padding: 0;
         list-style: none;
         text-decoration-line: none;
+        display: block;
     }
+
+    .reset-px {
+        display: block;
+    }
+
+
+    /* Body */
+
+    /* 3 HOME WORK */
+
+    .main-nav {
+        height: 72px;
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+    }
+
+    .menu-nav {
+        height: 72px;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-nav .navigation+.navigation {
+        background-color: teal;
+    }
+
+    .address-nav {
+        height: 72px;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .logo-nav {
+        margin-right: 76px;
+    }
+
+
+    /* ----------- */
+
+
 
     .logo-web {
         color: #4D5AE5;
+
         font-family: 'Raleway';
         font-size: 18px;
         font-weight: 800;
@@ -90,6 +99,7 @@
 
     .logo-studio {
         color: #2E2F42;
+
         font-family: 'Raleway';
         font-size: 18px;
         font-weight: 800;
@@ -99,6 +109,7 @@
 
     .navigation {
         color: var(--color-text-navigation);
+
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -128,6 +139,7 @@
         color: #404BBF;
     }
 
+
     /* Main */
 
     .hero {
@@ -135,28 +147,30 @@
     }
 
     .title-1 {
-        margin: 0;
-
         color: #ffffff;
 
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+
     }
 
     .button {
+        display: inline-block;
+
         border-radius: 4px;
-        padding: 16px 32px;
+        padding: 16px 32px 16px 32px;
 
         background-color: #4D5AE5;
-        border-color: rgba(0, 0, 128, 0);
+        border: transparent;
         color: #FFFFFF;
 
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        text-align: center;
 
         cursor: pointer;
     }
@@ -168,10 +182,7 @@
     }
 
     .title-2 {
-        margin: 0;
-
         color: var(--color-text-title);
-
 
         font-size: 36px;
         font-weight: 700;
@@ -180,7 +191,6 @@
     }
 
     .title-3 {
-        margin: 0;
         color: var(--color-text-title);
 
 
@@ -192,8 +202,8 @@
 
     .text-1 {
         margin: 0;
-        color: var(--color-text-paragraf);
 
+        color: var(--color-text-paragraf);
 
         font-size: 16px;
         font-weight: 400;

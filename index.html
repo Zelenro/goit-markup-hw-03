@@ -13,18 +13,22 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="page-header">
       <div class="container">
-        <nav>
-          <a class="krapka" href="./index.html"
+        <nav class="main-nav">
+          <a class="krapka logo-nav" href="./index.html"
             ><span class="logo-web">WEB</span
             ><span class="logo-studio">STUDIO</span></a
           >
-          <ul class="krapka">
+          <ul class="krapka menu-nav">
             <li>
               <a class="navigation" href="./index.html">Studio</a>
             </li>
@@ -33,10 +37,9 @@
             </li>
             <li><a class="navigation" href="">Contacts</a></li>
           </ul>
-        </nav>
 
-        <address>
-          <ul class="krapka">
+          <!-- <address> -->
+          <ul class="krapka address-nav">
             <li>
               <a class="address" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -48,19 +51,20 @@
               >
             </li>
           </ul>
-        </address>
+          <!-- </address> -->
+        </nav>
       </div>
     </header>
 
     <main>
       <section class="hero">
-        <div class="container-hero">
+        <div class="container">
           <h1 class="title-1">Effective Solutions for Your Business</h1>
           <button class="button">Order Service</button>
         </div>
       </section>
       <section>
-        <div class="container-features">
+        <div class="container">
           <h2 class="title-2" hidden>features</h2>
           <ul class="krapka">
             <li>
@@ -95,27 +99,40 @@
         </div>
       </section>
       <section>
-        <div class="container-what-are-we-doing">
+        <div class="container">
           <h2 class="title-2">What are we doing</h2>
           <ul class="krapka">
             <li>
-              <img src="./images/what-are-we-doing/jpeg/img1.jpg" alt="Foto" />
+              <img
+                class="reset-px"
+                src="./images/what-are-we-doing/jpeg/img1.jpg"
+                alt="Foto"
+              />
             </li>
             <li>
-              <img src="./images/what-are-we-doing/jpeg/img2.jpg" alt="Foto" />
+              <img
+                class="reset-px"
+                src="./images/what-are-we-doing/jpeg/img2.jpg"
+                alt="Foto"
+              />
             </li>
             <li>
-              <img src="./images/what-are-we-doing/jpeg/img3.jpg" alt="Foto" />
+              <img
+                class="reset-px"
+                src="./images/what-are-we-doing/jpeg/img3.jpg"
+                alt="Foto"
+              />
             </li>
           </ul>
         </div>
       </section>
       <section class="section-team-background">
-        <div class="container-team">
+        <div class="container">
           <h2 class="title-2">Our Team</h2>
           <ul class="krapka">
             <li class="team">
               <img
+                class="reset-px"
                 src="./images/team/jpg/mark-guerrero.jpg"
                 alt="Mark Guerrero"
               />
@@ -123,12 +140,17 @@
               <p class="text-1">Product Designer</p>
             </li>
             <li class="team">
-              <img src="./images/team/jpg/tom-ford.jpg" alt="om Ford" />
+              <img
+                class="reset-px"
+                src="./images/team/jpg/tom-ford.jpg"
+                alt="om Ford"
+              />
               <h3 class="title-3">Tom Ford</h3>
               <p class="text-1">Frontend Developer</p>
             </li>
             <li class="team">
               <img
+                class="reset-px"
                 src="./images/team/jpg/camila-garcia.jpg"
                 alt="Camila Garcia"
               />
@@ -137,6 +159,7 @@
             </li>
             <li class="team">
               <img
+                class="reset-px"
                 src="./images/team/jpg/daniel-wilson.jpg"
                 alt="Daniel Wilson"
               />
@@ -149,7 +172,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container-footer">
+      <div class="container">
         <a class="krapka" href="./index.html"
           ><span class="logo-webf">WEB</span
           ><span class="logo-studiof">STUDIO</span></a
