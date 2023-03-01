@@ -69,9 +69,13 @@ ol {
     width: 1128px;
 
     outline: 2px solid yellow;
-
 }
 
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     display: flex;
@@ -79,67 +83,28 @@ ol {
     margin-right: 76px;
 }
 
-.header-nav {
-    display: flex;
-    align-items: center;
-}
-
 .nav {
     display: flex;
     align-items: center;
 }
 
-.navigation:not(:last-child) {
+
+
+
+.header-navigation:not(:last-child) {
     margin-right: 40px;
 }
 
-.navigation {
-    margin-right: 40px;
-}
-
-/* .nav:not(:last-child) {
-    margin-right: 40px;
-} */
 
 .header-address {
-
     display: flex;
     align-items: center;
-
-
-}
-
-.address {
-    margin-right: 40px;
-}
-
-.address:nth-child(2n) {
-    margin-right: 40px;
-}
-
-
-/* .hero {
-    align-items: center;
-    margin-right: auto;
     margin-left: auto;
-} */
-/* 
-.features {
-    display: block;
-    display: flex;
-
 }
 
-.work {
-    display: block;
-    display: flex;
-
-
+.qwerty:not(:last-child) {
+    margin-right: 40px;
 }
-
-.team-foto {
-    display: flex;
-} */
 
 
 
