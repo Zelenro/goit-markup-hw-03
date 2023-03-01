@@ -51,6 +51,24 @@ ul {
     color: var(--color-text-paragraf);
 }
 
+
+/* Geometry */
+.reset-px {
+    display: block;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+
+    outline: 2px solid yellow;
+}
+
+.header {
+    /* display: block; */
+}
+
 /* Body  */
 /* Header  */
 .logo-web {
@@ -108,18 +126,7 @@ ul {
     color: var(--color-pressed-state);
 }
 
-/* Geometry Header*/
-.reset-px {
-    display: block;
-}
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1440px;
-
-    outline: 2px solid yellow;
-}
 
 /* Main  */
 .hero {
