@@ -30,7 +30,6 @@ body {
     --color-button-hover: #404BBF;
 }
 
-
 .link {
     text-decoration-line: none;
     list-style: none;
@@ -70,7 +69,10 @@ ul {
 }
 
 
-
+.logo {
+    display: flex;
+    align-items: center;
+}
 
 .header-nav {
     display: flex;
@@ -86,10 +88,16 @@ ul {
     align-items: center;
 }
 
-.logo {
+
+.title-features {
+
     display: flex;
-    align-items: center;
 }
+
+
+
+
+
 
 
 /* Body  */
