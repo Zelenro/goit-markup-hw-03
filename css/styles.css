@@ -21,13 +21,19 @@ a {
     text-decoration-line: none;
 }
 
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--color-text-paragraf);
+}
+
 /* Body  */
 /* Header  */
-
-/* .header {}
-.container {}
-.header-nav {}
-.logo {} */
 
 .logo-web {
     font-family: 'Raleway';
@@ -52,8 +58,6 @@ a {
     color: #2E2F42;
 }
 
-/* .nav {} */
-
 .navigation {
     font-family: 'Roboto';
     font-style: normal;
@@ -69,8 +73,6 @@ a {
 .navigation:focus {
     color: var(--color-pressed-state);
 }
-
-/* .header-address {} */
 
 .address {
     font-family: 'Roboto';
@@ -126,34 +128,78 @@ a {
     background-color: var(--color-button-hover);
 }
 
-.title-features {}
+.title-features {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 
-.title-strategy {}
+    color: #2E2F42;
+}
 
-.text {}
+.title-job {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
 
-.title-punctuality {}
+    color: var(--color-text-title);
+}
 
-.title-diligence {}
+/* .reset-px {} */
 
-.title-technologies {}
+/* .section-team-background {} */
 
-.title-job {}
+.title-team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
 
-.reset-px {}
+    color: var(--color-text-title);
+}
 
-.section-team-background {}
+/* .team {} */
 
-.title-team {}
+.footer {
+    background-color: #2E2F42;
+}
 
-.team {}
+.footrer-logo-web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 
-.title-3 {}
+    color: #4D5AE5;
+}
 
-.footer {}
+.footrer-logo-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 
-.logo-webf {}
+    color: #F4F4FD;
+}
 
-.logo-studiof {}
+.footer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 
-.footer-text {}
+    color: var(--color-text-foter)
+}
