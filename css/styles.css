@@ -1,4 +1,18 @@
 /* Global */
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --color-text-navigation: #2E2F42;
     --color-pressed-state: #404BBF;
@@ -21,9 +35,14 @@ a {
     text-decoration-line: none;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 .text {
-    font-family: 'Roboto';
-    font-style: normal;
+    margin: 0;
+    padding: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -34,9 +53,8 @@ a {
 
 /* Body  */
 /* Header  */
-
 .logo-web {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -48,7 +66,7 @@ a {
 }
 
 .logo-studio {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -88,6 +106,19 @@ a {
 .address:hover,
 .address:focus {
     color: var(--color-pressed-state);
+}
+
+/* Geometry Header*/
+.reset-px {
+    display: block;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+
+    outline: 2px solid yellow;
 }
 
 /* Main  */
@@ -172,7 +203,7 @@ a {
 }
 
 .footrer-logo-web {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -183,7 +214,7 @@ a {
 }
 
 .footrer-logo-studio {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -194,6 +225,8 @@ a {
 }
 
 .footer-text {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
