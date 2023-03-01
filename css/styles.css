@@ -65,7 +65,8 @@ ol {
 
     margin-left: auto;
     margin-right: auto;
-    width: 1440px;
+    /* width: 1440px; */
+    width: 1128px;
 
     outline: 2px solid yellow;
 
@@ -75,10 +76,12 @@ ol {
 .logo {
     display: flex;
     align-items: center;
+    margin-right: 76px;
 }
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .nav {
@@ -86,14 +89,41 @@ ol {
     align-items: center;
 }
 
-
-
-
-.header-address {
-    display: flex;
-    align-items: center;
+.navigation:not(:last-child) {
+    margin-right: 40px;
 }
 
+.navigation {
+    margin-right: 40px;
+}
+
+/* .nav:not(:last-child) {
+    margin-right: 40px;
+} */
+
+.header-address {
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.address {
+    margin-right: 40px;
+}
+
+.address:nth-child(2n) {
+    margin-right: 40px;
+}
+
+
+/* .hero {
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+} */
+/* 
 .features {
     display: block;
     display: flex;
@@ -105,12 +135,11 @@ ol {
     display: flex;
 
 
-
 }
 
 .team-foto {
     display: flex;
-}
+} */
 
 
 
@@ -208,6 +237,8 @@ ol {
     border-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+    cursor: pointer;
 }
 
 .button:hover,
