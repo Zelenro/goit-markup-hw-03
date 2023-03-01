@@ -1,7 +1,8 @@
 /* Global */
 h1,
 h2,
-h3 {
+h3,
+p {
     margin: 0;
     padding: 0;
 }
@@ -45,8 +46,6 @@ ul {
 }
 
 .text {
-    margin: 0;
-    padding: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -79,19 +78,18 @@ ul {
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 .header-address {
     display: flex;
+    align-items: center;
 }
 
-
-
-
-
-
-
-.logo {}
+.logo {
+    display: flex;
+    align-items: center;
+}
 
 
 /* Body  */
@@ -120,8 +118,8 @@ ul {
 }
 
 .navigation {
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -155,14 +153,13 @@ ul {
 
 /* Main  */
 .hero {
-
     background-color: #2E2F42;
 }
 
 .title-hero {
 
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -173,8 +170,8 @@ ul {
 }
 
 .button {
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -193,8 +190,8 @@ ul {
 }
 
 .title-features {
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -204,8 +201,8 @@ ul {
 }
 
 .title-job {
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto';
+    font-style: normal; */
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -213,14 +210,10 @@ ul {
 
     color: var(--color-text-title);
 }
-
-/* .reset-px {} */
-
-/* .section-team-background {} */
 
 .title-team {
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto';
+    font-style: normal; */
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -228,8 +221,6 @@ ul {
 
     color: var(--color-text-title);
 }
-
-/* .team {} */
 
 .footer {
     background-color: #2E2F42;
@@ -260,8 +251,8 @@ ul {
 .footer-text {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto';
+    font-style: normal; */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
