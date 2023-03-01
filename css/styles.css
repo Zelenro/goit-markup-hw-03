@@ -3,8 +3,8 @@ h1,
 h2,
 h3,
 p {
-    margin: 0;
-    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 body {
@@ -39,9 +39,11 @@ a {
     text-decoration-line: none;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .text {
@@ -60,6 +62,7 @@ ul {
 }
 
 .container {
+
     margin-left: auto;
     margin-right: auto;
     width: 1440px;
@@ -83,14 +86,29 @@ ul {
     align-items: center;
 }
 
+
+
+
 .header-address {
     display: flex;
     align-items: center;
 }
 
+.features {
+    display: block;
+    display: flex;
 
-.title-features {
+}
 
+.work {
+    display: block;
+    display: flex;
+
+
+
+}
+
+.team-foto {
     display: flex;
 }
 
