@@ -259,6 +259,13 @@ ol {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+
+}
+
+.link-foto {
+    border: 1px solid #E7E9FC;
+    margin-bottom: 48px;
 }
 
 .title-foto {
