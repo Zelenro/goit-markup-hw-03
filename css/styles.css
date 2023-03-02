@@ -128,7 +128,6 @@ ol {
 .features {
     display: flex;
     height: 300px;
-    /* justify-content: space-between; */
 }
 
 .title-features {
@@ -139,10 +138,6 @@ ol {
     display: block;
     padding-top: 120px;
 }
-
-/* .item-features {
-    justify-content: space-between;
-} */
 
 .item-features:not(:last-child) {
     margin-right: 20px;
@@ -178,9 +173,6 @@ ol {
 
 .team-foto {
     display: flex;
-    /* display: block; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
 }
 
 .team {
@@ -192,8 +184,6 @@ ol {
 .team-foto {
     justify-content: space-between;
 }
-
-
 
 .title-foto-team {
     margin-top: 32px;
@@ -210,7 +200,6 @@ ol {
 
 .footer-logo {
     display: block;
-    /* margin-top: 100px; */
     padding-top: 100px;
     margin-bottom: 16px;
 }
@@ -222,6 +211,7 @@ ol {
 /* Portfolio */
 
 .list-selection {
+    /* width: 1125px; */
     display: flex;
     padding-top: 96px;
     justify-content: center;
@@ -231,8 +221,57 @@ ol {
     margin-right: 24px;
 }
 
+.item-selection {}
 
+.selection {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 
+    padding: 12px 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+
+    margin-bottom: 72px;
+
+    cursor: pointer;
+}
+
+.selection:hover,
+.selection:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.bank-foto {
+    width: 1125px;
+    margin-left: 156px;
+}
+
+.list-foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title-foto {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+
+.text-foto {
+    margin-top: 8px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
 
 
 /* Body  */
@@ -313,8 +352,6 @@ ol {
 }
 
 .button {
-    /* font-family: 'Roboto'; */
-    /* font-style: normal; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -327,6 +364,8 @@ ol {
     border-radius: 4px;
 
     cursor: pointer;
+
+    padding: 16px 32px;
 }
 
 .button:hover,
@@ -335,8 +374,6 @@ ol {
 }
 
 .title-features {
-    /* font-family: 'Roboto'; */
-    /* font-style: normal; */
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -356,8 +393,6 @@ ol {
 }
 
 .title-job {
-    /* font-family: 'Roboto';
-    font-style: normal; */
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -367,8 +402,6 @@ ol {
 }
 
 .title-foto-team {
-    /* font-family: 'Roboto';
-    font-style: normal; */
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
