@@ -128,6 +128,7 @@ ol {
 .features {
     display: flex;
     height: 300px;
+    /* justify-content: space-between; */
 }
 
 .title-features {
@@ -139,9 +140,14 @@ ol {
     padding-top: 120px;
 }
 
+/* .item-features {
+    justify-content: space-between;
+} */
+
 .item-features:not(:last-child) {
     margin-right: 20px;
 }
+
 
 .text-features {
     margin-bottom: 120px;
@@ -149,6 +155,8 @@ ol {
 
 .work {
     display: flex;
+    margin-bottom: 120px;
+    justify-content: space-between;
 }
 
 .title-job {
@@ -156,9 +164,6 @@ ol {
     text-align: center;
 }
 
-.item-work {
-    /* display: flex; */
-}
 
 .section-team-background {
     height: 732px;
@@ -184,9 +189,11 @@ ol {
     text-align: center;
 }
 
-.team:not(:last-child) {
-    margin-right: 23px;
+.team-foto {
+    justify-content: space-between;
 }
+
+
 
 .title-foto-team {
     margin-top: 32px;
@@ -211,6 +218,21 @@ ol {
 .footer-text {
     max-inline-size: 264px;
 }
+
+/* Portfolio */
+
+.list-selection {
+    display: flex;
+    padding-top: 96px;
+    justify-content: center;
+}
+
+.item-selection:not(:last-child) {
+    margin-right: 24px;
+}
+
+
+
 
 
 /* Body  */
