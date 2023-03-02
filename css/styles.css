@@ -264,6 +264,8 @@ ol {
 
 .link-foto {
     border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
     margin-bottom: 48px;
 }
 
