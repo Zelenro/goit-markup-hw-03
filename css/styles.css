@@ -262,7 +262,7 @@ ol {
     justify-content: space-between;
 }
 
-.link-foto {
+.border-foto {
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
@@ -277,7 +277,7 @@ ol {
 
     color: var(--color-text-title);
 
-    margin-top: 32px;
+    padding-top: 32px;
     margin-bottom: 8px;
     margin-left: 16px;
 }
