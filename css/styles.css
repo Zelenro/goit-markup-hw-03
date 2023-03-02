@@ -68,10 +68,11 @@ ol {
     margin-right: auto;
     width: 1125px;
 
-    outline: 2px solid yellow;
+    /* outline: 2px solid yellow; */
 }
 
 .header-nav {
+    height: 72px;
     display: flex;
     align-items: center;
 }
@@ -110,6 +111,12 @@ ol {
     max-inline-size: 496px;
     padding-top: 188px;
     /* padding-left: 224px; */
+
+}
+
+
+.title-hero {
+    margin-bottom: 48px;
 }
 
 .button {
