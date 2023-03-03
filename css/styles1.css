@@ -8,11 +8,15 @@ p {
 }
 
 body {
+    width: 1440px;
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
+    /* margin-top: 0; */
+    /* margin-bottom: 0; */
+    /* padding-left: 0; */
 }
 
 :root {
@@ -52,37 +56,248 @@ ol {
     color: var(--color-text-paragraf);
 }
 
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+/* Geometry */
 .reset-px {
     display: block;
 }
 
-section {
-    width: 1158px;
-
-    margin-left: 156px;
-    margin-right: 156px;
+.container {
 
     margin-left: auto;
     margin-right: auto;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    width: 1158px;
+
+    /* outline: 2px solid yellow; */
 }
 
-
-/=====================** Body **=====================/
-/* Header  */
-
-.header {
+.header-nav {
     height: 72px;
-    width: 1440px;
-    border-bottom: 1px solid #E7E9FC;
-}
-
-.nav {
     display: flex;
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.item-navigation:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header-address {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.item-address:not(:last-child) {
+    margin-right: 40px;
+}
+
+.hero {
+    height: 600px;
+}
+
+.item-hero {
+    display: block;
+    max-inline-size: 496px;
+    padding-top: 188px;
+    /* padding-left: 224px; */
+
+}
+
+
+.title-hero {
+    margin-bottom: 48px;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features {
+    display: flex;
+    height: 300px;
+}
+
+.title-features {
+    margin-bottom: 8px;
+}
+
+.item-features {
+    display: block;
+    padding-top: 120px;
+}
+
+.item-features:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+.text-features {
+    margin-bottom: 120px;
+}
+
+.work {
+    display: flex;
+    margin-bottom: 120px;
+    justify-content: space-between;
+}
+
+.title-job {
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+
+.section-team-background {
+    height: 732px;
+    background: #F4F4FD;
+}
+
+.title-team {
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 72px;
+}
+
+.team-foto {
+    display: flex;
+}
+
+.team {
+    display: block;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.team-foto {
+    justify-content: space-between;
+}
+
+.title-foto-team {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.skill {
+    margin-bottom: 32px;
+}
+
+.footer {
+    height: 310px;
+}
+
+.footer-logo {
+    display: block;
+    padding-top: 100px;
+    margin-bottom: 16px;
+}
+
+.footer-text {
+    max-inline-size: 264px;
+}
+
+/* Portfolio */
+
+.list-selection {
+    /* width: 1125px; */
+    display: flex;
+    padding-top: 96px;
+    justify-content: center;
+}
+
+.item-selection:not(:last-child) {
+    margin-right: 24px;
+}
+
+.selection {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+    padding: 12px 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+
+    margin-bottom: 72px;
+
+    cursor: pointer;
+}
+
+.selection:hover,
+.selection:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.bank-foto {
+    width: 1158px;
+    margin-left: 156px;
+}
+
+.list-foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.border-foto {
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    margin-bottom: 48px;
+}
+
+.title-foto {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    color: var(--color-text-title);
+
+    padding-top: 32px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+
+.text-foto {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--color-text-paragraf);
+
+    margin-top: 8px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
+
+
+/* Body  */
+/* Header  */
 .logo-web {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -90,9 +305,9 @@ section {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
+
     color: #4D5AE5;
 
-    margin-left: 15px;
 }
 
 .logo-studio {
@@ -102,20 +317,19 @@ section {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
-    color: #2E2F42;
 
-    margin-right: 76px;
+    color: #2E2F42;
 }
 
-.header-navigation {
+.navigation {
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-text-navigation);
 
-    display: flex;
-    align-items: center;
+    color: var(--color-text-navigation);
 }
 
 .navigation:hover,
@@ -123,31 +337,14 @@ section {
     color: var(--color-pressed-state);
 }
 
-.item-navigation:not(:last-child) {
-    margin-right: 40px;
-}
-
-address {
-    margin-left: auto;
-    margin-right: 156px;
-}
-
 .address {
-    margin-right: 40px;
-}
-
-.header-address {
-    display: flex;
-    align-items: center;
-}
-
-.item-address {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
     color: var(--color-text-address);
 }
 
@@ -156,27 +353,24 @@ address {
     color: var(--color-pressed-state);
 }
 
-/* /=====================** HERO **=====================/ */
 
+
+/* Main  */
 .hero {
     background-color: #2E2F42;
-    height: 600px;
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 
-
 .title-hero {
+
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+
     color: var(--color-text-hero);
 
-    text-align: center;
-    max-width: 496px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .button {
@@ -184,6 +378,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+
     color: #FFFFFF;
     background: var(--color-button-normal);
     border-color: transparent;
@@ -192,22 +387,12 @@ address {
 
     cursor: pointer;
 
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 48px;
-
     padding: 16px 32px;
 }
 
 .button:hover,
 .button:focus {
     background-color: var(--color-button-hover);
-}
-
-/* /=====================** Features **=====================/ */
-.features {
-    display: flex;
 }
 
 .title-features {
