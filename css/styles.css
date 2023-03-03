@@ -366,10 +366,20 @@ address {
     padding-bottom: 96px;
 }
 
+
+.nav-selection {
+    margin-left: 156px;
+}
+
 .list-selection {
     display: flex;
     padding-top: 96px;
+    /* margin-left: 156px; */
 }
+
+
+
+
 
 .item-selection:not(:last-child) {
     margin-right: 24px;
@@ -380,7 +390,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     padding: 12px 24px;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
@@ -397,11 +407,12 @@ address {
     color: #FFFFFF;
 }
 
-.section-foto {
-    padding-left: ;
-}
-
 .list-foto {
     display: flex;
     flex-wrap: wrap;
+    /* display: block; */
+}
+
+.link-foto:not(:last-child) {
+    margin-right: 24px;
 }
