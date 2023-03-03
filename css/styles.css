@@ -69,18 +69,22 @@ section {
 }
 
 
-/=====================** Body **=====================/
-/* Header  */
+/* /=====================** Header **=====================/ */
+.section-header {
+    width: 1440px;
+    height: 72px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+}
 
 .header {
-    height: 72px;
-    width: 1440px;
-    border-bottom: 1px solid #E7E9FC;
+    /* width: 1440px; */
+
 }
 
 .nav {
     display: flex;
-    align-items: center;
 }
 
 .logo-web {
@@ -91,8 +95,7 @@ section {
     line-height: 1.33;
     letter-spacing: 0.03em;
     color: #4D5AE5;
-
-    margin-left: 15px;
+    padding-left: 15px;
 }
 
 .logo-studio {
@@ -103,7 +106,6 @@ section {
     line-height: 1.33;
     letter-spacing: 0.03em;
     color: #2E2F42;
-
     margin-right: 76px;
 }
 
@@ -115,7 +117,6 @@ section {
     color: var(--color-text-navigation);
 
     display: flex;
-    align-items: center;
 }
 
 .navigation:hover,
@@ -138,7 +139,6 @@ address {
 
 .header-address {
     display: flex;
-    align-items: center;
 }
 
 .item-address {
@@ -159,6 +159,7 @@ address {
 /* /=====================** HERO **=====================/ */
 
 .hero {
+    width: 1440px;
     background-color: #2E2F42;
     height: 600px;
     padding-top: 188px;
@@ -206,6 +207,10 @@ address {
 }
 
 /* /=====================** Features **=====================/ */
+.section-features {
+    padding-top: 120px;
+}
+
 .features {
     display: flex;
 }
@@ -215,7 +220,6 @@ address {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
     color: #2E2F42;
 }
 
@@ -225,8 +229,23 @@ address {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-
     color: var(--color-text-title);
+}
+
+.item-features:not(:last-child) {
+    margin-right: 24px;
+}
+
+/* /=====================** Work **=====================/ */
+.section-work {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work {
+    display: flex;
 }
 
 .title-job {
@@ -234,9 +253,16 @@ address {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-
     color: var(--color-text-title);
+    text-align: center;
+    margin-bottom: 72px;
 }
+
+.item-work:not(:last-child) {
+    margin-right: 24px;
+}
+
+/* /=====================** Features **=====================/ */
 
 .title-foto-team {
     font-weight: 500;
@@ -247,8 +273,58 @@ address {
     color: var(--color-text-title);
 }
 
+/* /=====================** Team **=====================/ */
+
+.section-team-background {
+    background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-foto {
+    display: flex;
+}
+
+.title-team {
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+.team:not(:last-child) {
+    margin-right: 24px;
+}
+
+.team {
+    background-color: #FFFFFF;
+}
+
+.title-foto-team {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.skill {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+
+/* /=====================** Footer **=====================/ */
+
 .footer {
     background-color: #2E2F42;
+    width: 1440px;
+    height: 310px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
 }
 
 .footrer-logo-web {
@@ -274,14 +350,58 @@ address {
 }
 
 .footer-text {
-    margin: 0;
-    padding: 0;
-    /* font-family: 'Roboto';
-    font-style: normal; */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--color-text-foter);
+    margin-top: 16px;
+    width: 264px;
+}
 
-    color: var(--color-text-foter)
+/* ============================== Portfolio ================================== */
+.section-selection {
+    width: 1440px;
+    height: 216px;
+    padding-bottom: 96px;
+}
+
+.list-selection {
+    display: flex;
+    padding-top: 96px;
+}
+
+.item-selection:not(:last-child) {
+    margin-right: 24px;
+}
+
+.selection {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 12px 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    margin-bottom: 72px;
+    cursor: pointer;
+}
+
+.selection:hover,
+.selection:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.section-foto {
+    padding-left: ;
+}
+
+.list-foto {
+    display: flex;
+    flex-wrap: wrap;
 }
