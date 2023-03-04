@@ -53,26 +53,28 @@ ol {
     display: block;
 }
 
-section {
+/* section {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
+} */
 
 /* /=====================** Header **=====================/ */
 
 .nav {
-    width: 1440px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     height: 72px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
-    padding-left: 156px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .logo-web {
@@ -150,7 +152,9 @@ section {
 /* /=====================** HERO **=====================/ */
 
 .hero {
-    width: 1440px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     background-color: #2E2F42;
@@ -200,12 +204,13 @@ section {
 
 /* /=====================** Features **=====================/ */
 .section-features {
-    width: 1440px;
-    padding-top: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 120px;
+
 }
 
 .features {
@@ -236,11 +241,13 @@ section {
 
 /* /=====================** Work **=====================/ */
 .section-work {
-    width: 1440px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
 }
 
 .work {
@@ -257,6 +264,18 @@ section {
     margin-bottom: 72px;
 }
 
+.qwerty3 {
+    /* backgroundf: linear-gradient(0deg, rgba(77, 90, 229, 0.1); */
+}
+
+/* background: #4d5ae5; */
+/* opacity: 0.1; */
+/* background: linear-gradient(0deg, rgba(77, 90, 229, 0.1); */
+/* background-blend-mode: soft-light, normal; */
+/* border: 1px solid #E7E9FC; */
+/* } */
+
+
 .item-work:not(:last-child) {
     margin-right: 24px;
 }
@@ -265,14 +284,14 @@ section {
 
 .section-team-background {
     background-color: #F4F4FD;
-    width: 1440px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     height: 732px;
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .title-foto-team {
@@ -286,7 +305,7 @@ section {
 
 .title-team {
     text-align: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-foto {
@@ -313,14 +332,22 @@ section {
 }
 
 /* /=====================** Footer **=====================/ */
+footer {
+    background-color: #2E2F42;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .footer {
     background-color: #2E2F42;
-    width: 1440px;
+
     height: 310px;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
+    /* padding-left: 156px; */
 }
 
 .footrer-logo-web {
@@ -330,7 +357,6 @@ section {
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-
     color: #4D5AE5;
 }
 
@@ -341,7 +367,6 @@ section {
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-
     color: #F4F4FD;
 }
 
@@ -356,18 +381,22 @@ section {
 }
 
 /* ============================== Portfolio ================================== */
-
 /* ============================== Selection ================================== */
 
 .nav-selection {
-    width: 1440px;
+
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     height: 216px;
 }
 
 .list-selection {
     display: flex;
     padding-top: 96px;
-    margin-left: 427px;
+    padding-left: 271px;
     padding-bottom: 72px;
 }
 
@@ -398,7 +427,12 @@ section {
 
 /* ============================== Bank Foto ================================== */
 .bank-foto {
-    width: 1440px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .list-foto {
@@ -406,8 +440,8 @@ section {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-left: 156px;
-    margin-right: 156px;
+    /* margin-left: 156px; */
+    /* margin-right: 156px; */
     padding-bottom: 120px;
 }
 
@@ -422,6 +456,21 @@ section {
     border-right: 1px solid #E7E9FC;
 }
 
+.title-foto {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
 .text-foto {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
     padding-top: 8px;
 }
