@@ -121,12 +121,10 @@ section {
 
 .header-address {
     display: flex;
-
 }
 
 .address {
     margin-left: auto;
-    /* padding-right: 15px; */
 }
 
 .item-address {
@@ -167,7 +165,7 @@ section {
     color: var(--color-text-hero);
 
     text-align: center;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -204,12 +202,12 @@ section {
     padding-top: 120px;
     padding-left: 156px;
     padding-right: 156px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .features {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-features {
@@ -261,7 +259,9 @@ section {
     margin-right: 24px;
 }
 
+
 /* /=====================** Team **=====================/ */
+
 
 .section-team-background {
     background-color: #F4F4FD;
@@ -276,21 +276,22 @@ section {
 }
 
 .title-foto-team {
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
-    color: var(--color-text-title);
-}
 
-.title-team {
-    text-align: center;
-    padding-bottom: 72px;
+    color: var(--color-text-title);
 }
 
 .team-foto {
     display: flex;
+}
+
+.title-team {
+    margin-bottom: 72px;
+    text-align: center;
 }
 
 .team:not(:last-child) {
@@ -301,16 +302,17 @@ section {
     background-color: #FFFFFF;
 }
 
+.title-foto-team {
+    text-align: center;
+    margin-top: 32px;
+}
+
 .skill {
     text-align: center;
     margin-top: 8px;
-}
-
-.group {
-    margin-top: 32px;
-    margin-bottom: 72px;
     margin-bottom: 32px;
 }
+
 
 /* /=====================** Footer **=====================/ */
 
@@ -361,14 +363,13 @@ section {
 
 .nav-selection {
     width: 1440px;
-    height: 216px;
 }
 
 .list-selection {
     display: flex;
     padding-top: 96px;
-    margin-left: 427px;
-    padding-bottom: 72px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .item-selection:not(:last-child) {
@@ -380,13 +381,14 @@ section {
     font-size: 16px;
     line-height: 1.5;
     padding: 12px 24px;
+    /* align-items: center; */
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-
+    margin-bottom: 72px;
     cursor: pointer;
 }
 
@@ -396,28 +398,12 @@ section {
     color: #FFFFFF;
 }
 
-/* ============================== Bank Foto ================================== */
-.bank-foto {
-    width: 1440px;
-}
-
 .list-foto {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-    margin-left: 156px;
-    margin-right: 156px;
-    padding-bottom: 120px;
+    /* display: block; */
 }
 
-.border-foto {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
-}
-
-.text-foto {
-    padding-top: 8px;
+.link-foto:not(:last-child) {
+    margin-right: 24px;
 }
