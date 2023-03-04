@@ -10,9 +10,6 @@ p {
 body {
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
 
 :root {
@@ -58,33 +55,24 @@ ol {
 
 section {
     width: 1158px;
-
-    margin-left: 156px;
-    margin-right: 156px;
-
     margin-left: auto;
     margin-right: auto;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-
 /* /=====================** Header **=====================/ */
-.section-header {
+
+.nav {
     width: 1440px;
+    display: flex;
     height: 72px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
-}
-
-.header {
-    /* width: 1440px; */
-
-}
-
-.nav {
-    display: flex;
+    padding-left: 156px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo-web {
@@ -95,7 +83,6 @@ section {
     line-height: 1.33;
     letter-spacing: 0.03em;
     color: #4D5AE5;
-    padding-left: 15px;
 }
 
 .logo-studio {
@@ -128,27 +115,31 @@ section {
     margin-right: 40px;
 }
 
-address {
-    margin-left: auto;
-    margin-right: 156px;
-}
-
-.address {
-    margin-right: 40px;
+.contact {
+    margin-left: 332px;
 }
 
 .header-address {
     display: flex;
+
+}
+
+.address {
+    margin-left: auto;
+    /* padding-right: 15px; */
 }
 
 .item-address {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-text-address);
+}
+
+.item-address:not(:last-child) {
+    margin-right: 40px;
 }
 
 .address:hover,
@@ -160,12 +151,14 @@ address {
 
 .hero {
     width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
     background-color: #2E2F42;
     height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
-
 
 .title-hero {
     font-weight: 700;
@@ -208,11 +201,16 @@ address {
 
 /* /=====================** Features **=====================/ */
 .section-features {
+    width: 1440px;
     padding-top: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
 }
 
 .features {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-features {
@@ -221,6 +219,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .title-team {
@@ -233,15 +232,16 @@ address {
 }
 
 .item-features:not(:last-child) {
-    margin-right: 24px;
+    margin-right: 22px;
 }
 
 /* /=====================** Work **=====================/ */
 .section-work {
+    width: 1440px;
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 156px;
+    padding-right: 156px;
 }
 
 .work {
@@ -262,18 +262,9 @@ address {
     margin-right: 24px;
 }
 
-/* /=====================** Features **=====================/ */
-
-.title-foto-team {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-
-    color: var(--color-text-title);
-}
 
 /* /=====================** Team **=====================/ */
+
 
 .section-team-background {
     background-color: #F4F4FD;
@@ -285,6 +276,16 @@ address {
     padding-right: 156px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.title-foto-team {
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    color: var(--color-text-title);
 }
 
 .team-foto {
