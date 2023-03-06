@@ -53,10 +53,10 @@ ol {
     display: block;
 }
 
-section {
+/* section {
     padding-left: 15px;
     padding-right: 15px;
-}
+} */
 
 /* /=====================** Header **=====================/ */
 
@@ -69,6 +69,8 @@ section {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
@@ -94,14 +96,26 @@ section {
 }
 
 .header-navigation {
+    /* font-weight: 500; */
+    /* font-size: 16px; */
+    /* line-height: 1.5; */
+    /* letter-spacing: 0.02em; */
+    /* color: var(--color-text-navigation); */
+
+    display: flex;
+}
+
+
+.navigation {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-text-navigation);
-
-    display: flex;
 }
+
+
+
 
 .navigation:hover,
 .navigation:focus {
@@ -121,11 +135,17 @@ section {
 
 }
 
-.address {
+.possible-without-class {
     margin-left: auto;
 }
 
-.item-address {
+/* example */
+/* address { */
+/* margin-left: auto; */
+/* } */
+
+
+.address {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -196,7 +216,8 @@ section {
     margin-left: auto;
     margin-right: auto;
     padding-top: 120px;
-
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .features {
@@ -237,6 +258,8 @@ section {
     margin-right: auto;
     padding-top: 120px;
     padding-bottom: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .work {
@@ -265,15 +288,18 @@ section {
 }
 
 /* /=====================** Team **=====================/ */
+.team-color {
+    background-color: #F4F4FD;
+}
 
 .section-team-background {
-    background-color: #F4F4FD;
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    height: 732px;
     padding-top: 120px;
     padding-bottom: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .title-foto-team {
@@ -384,12 +410,16 @@ footer {
     margin-right: auto;
     margin-top: 96px;
     margin-bottom: 72px;
-    /* height: 216px; */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .list-selection {
     display: flex;
-    padding-left: 271px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 271px; */
+    justify-content: center;
 }
 
 .item-selection:not(:last-child) {
@@ -423,7 +453,8 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 120px;
-
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .list-foto {
@@ -460,11 +491,6 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 8px;
 
-    padding-top: 8px;
-}
-
-.link-foto {
-    margin-left: auto;
-    margin-right: auto;
 }
