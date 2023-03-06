@@ -96,15 +96,8 @@ ol {
 }
 
 .header-navigation {
-    /* font-weight: 500; */
-    /* font-size: 16px; */
-    /* line-height: 1.5; */
-    /* letter-spacing: 0.02em; */
-    /* color: var(--color-text-navigation); */
-
     display: flex;
 }
-
 
 .navigation {
     font-weight: 500;
@@ -113,9 +106,6 @@ ol {
     letter-spacing: 0.02em;
     color: var(--color-text-navigation);
 }
-
-
-
 
 .navigation:hover,
 .navigation:focus {
@@ -135,10 +125,12 @@ ol {
 
 }
 
+
 .possible-without-class {
     margin-left: auto;
 }
 
+/* ? */
 /* example */
 /* address { */
 /* margin-left: auto; */
@@ -470,7 +462,6 @@ footer {
     padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px;
-
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
@@ -492,5 +483,4 @@ footer {
     letter-spacing: 0.02em;
     color: #434455;
     margin-top: 8px;
-
 }
