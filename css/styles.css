@@ -53,20 +53,15 @@ ol {
     display: block;
 }
 
-/* section {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
+section {
     padding-left: 15px;
     padding-right: 15px;
-} */
+}
 
 /* /=====================** Header **=====================/ */
 
 .nav {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -128,7 +123,6 @@ ol {
 
 .address {
     margin-left: auto;
-    /* padding-right: 15px; */
 }
 
 .item-address {
@@ -153,10 +147,9 @@ ol {
 
 .hero {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    /* width: 1440px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     background-color: #2E2F42;
     height: 600px;
     padding-top: 188px;
@@ -164,12 +157,14 @@ ol {
 }
 
 .title-hero {
+    /* width: 1158px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--color-text-hero);
-
     text-align: center;
     width: 496px;
     margin-left: auto;
@@ -186,14 +181,11 @@ ol {
     border-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-
     cursor: pointer;
-
     display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
-
     padding: 16px 32px;
 }
 
@@ -205,8 +197,6 @@ ol {
 /* /=====================** Features **=====================/ */
 .section-features {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 120px;
@@ -235,6 +225,11 @@ ol {
     color: var(--color-text-title);
 }
 
+.item-features {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .item-features:not(:last-child) {
     margin-right: 22px;
 }
@@ -242,8 +237,6 @@ ol {
 /* /=====================** Work **=====================/ */
 .section-work {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 120px;
@@ -252,6 +245,7 @@ ol {
 
 .work {
     display: flex;
+    /* flex-basis: calc((100% - 24px) / 3); */
 }
 
 .title-job {
@@ -264,17 +258,11 @@ ol {
     margin-bottom: 72px;
 }
 
-.qwerty3 {
-    /* backgroundf: linear-gradient(0deg, rgba(77, 90, 229, 0.1); */
+.item-work {
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* flex-basis: calc((100% - 24px) / 3); */
 }
-
-/* background: #4d5ae5; */
-/* opacity: 0.1; */
-/* background: linear-gradient(0deg, rgba(77, 90, 229, 0.1); */
-/* background-blend-mode: soft-light, normal; */
-/* border: 1px solid #E7E9FC; */
-/* } */
-
 
 .item-work:not(:last-child) {
     margin-right: 24px;
@@ -285,8 +273,6 @@ ol {
 .section-team-background {
     background-color: #F4F4FD;
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     height: 732px;
@@ -295,6 +281,7 @@ ol {
 }
 
 .title-foto-team {
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -306,10 +293,12 @@ ol {
 .title-team {
     text-align: center;
     margin-bottom: 72px;
+
 }
 
 .team-foto {
     display: flex;
+    /* flex-basis: calc((100% - 24px) / 3); */
 }
 
 .team:not(:last-child) {
@@ -318,6 +307,8 @@ ol {
 
 .team {
     background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .skill {
@@ -326,28 +317,35 @@ ol {
 }
 
 .group {
-    margin-top: 32px;
-    margin-bottom: 72px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.team {
+    background: #FFFFFF;
+    box-shadow:
+        0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /* /=====================** Footer **=====================/ */
 footer {
     background-color: #2E2F42;
-    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .footer {
-    background-color: #2E2F42;
-
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
     height: 310px;
     padding-top: 100px;
     padding-bottom: 100px;
-    /* padding-left: 156px; */
 }
 
 .footrer-logo-web {
@@ -386,18 +384,16 @@ footer {
 .nav-selection {
 
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    height: 216px;
+    margin-top: 96px;
+    margin-bottom: 72px;
+    /* height: 216px; */
 }
 
 .list-selection {
     display: flex;
-    padding-top: 96px;
     padding-left: 271px;
-    padding-bottom: 72px;
 }
 
 .item-selection:not(:last-child) {
@@ -428,10 +424,9 @@ footer {
 /* ============================== Bank Foto ================================== */
 .bank-foto {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 120px;
 
 }
 
@@ -440,9 +435,7 @@ footer {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    /* margin-left: 156px; */
-    /* margin-right: 156px; */
-    padding-bottom: 120px;
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .border-foto {
@@ -473,4 +466,9 @@ footer {
     color: #434455;
 
     padding-top: 8px;
+}
+
+.link-foto {
+    margin-left: auto;
+    margin-right: auto;
 }
